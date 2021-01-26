@@ -1,0 +1,92 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.25.7"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+true
+clj꞉reverse-string꞉> 
+false
+clj꞉reverse-string꞉> 
+("heloo")
+clj꞉reverse-string꞉> 
+((\h \e \l \o \o))
+clj꞉reverse-string꞉> 
+(\h \e \l \o \o)
+clj꞉reverse-string꞉> 
+; Syntax error compiling at (reverse_string.clj:10:1).
+; Unable to resolve symbol: typof in this context
+clj꞉reverse-string꞉> 
+clojure.lang.StringSeq
+clj꞉reverse-string꞉> 
+clojure.lang.PersistentList
+clj꞉reverse-string꞉> 
+clojure.lang.PersistentList
+clj꞉reverse-string꞉> 
+clojure.lang.PersistentList
+clj꞉reverse-string꞉> 
+clojure.lang.PersistentList
+clj꞉reverse-string꞉> 
+((\h \e \l \o \o))
+clj꞉reverse-string꞉> 
+\h
+clj꞉reverse-string꞉> 
+(\c)
+clj꞉reverse-string꞉> 
+; Evaluating file: reverse_string.clj
+(\c)
+clj꞉reverse-string꞉> 
+(\o \l \l \e \h)
+clj꞉reverse-string꞉> 
+; Syntax error compiling at (reverse_string.clj:10:1).
+; No such namespace: s
+clj꞉reverse-string꞉> 
+; Syntax error compiling at (reverse_string.clj:10:1).
+; No such namespace: s
+clj꞉reverse-string꞉> 
+; Syntax error compiling at (reverse_string.clj:10:1).
+; No such namespace: s
+clj꞉reverse-string꞉> 
+; Syntax error compiling at (reverse_string.clj:10:1).
+; No such namespace: s
+clj꞉reverse-string꞉> 
+(\h \e \l \l \o)
+clj꞉reverse-string꞉> 
+; Syntax error compiling at (reverse_string.clj:10:1).
+; No such namespace: s
+clj꞉reverse-string꞉> 
+(\h \e \l \l \o)
+clj꞉reverse-string꞉> 
+"(\\h \\e \\l \\l \\o)"
+clj꞉reverse-string꞉> 
+"hello"
+clj꞉reverse-string꞉> 
+; Execution error (ClassCastException) at reverse-string/eval7192 (form-init9196296621551635822.clj:9).
+; class clojure.core$dec cannot be cast to class java.lang.Number (clojure.core$dec is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉reverse-string꞉> 
+()
+clj꞉reverse-string꞉> 
+()
+clj꞉reverse-string꞉> 
+(0 1 2 3 4)
+clj꞉reverse-string꞉> 
+()
+clj꞉reverse-string꞉> 
+(5 6 7 8 9)
+clj꞉reverse-string꞉> 
+(10 9 8 7 6)
+clj꞉reverse-string꞉> 
