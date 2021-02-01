@@ -1,0 +1,66 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.25.8"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (collatz_conjecture.clj:7:1).
+; Unable to resolve symbol: defn in this context
+clj꞉collatz-conjecture꞉> 
+; Evaluating file: collatz_conjecture.clj
+#'collatz-conjecture/collatz
+clj꞉collatz-conjecture꞉> 
+#'collatz-conjecture/collatz
+clj꞉collatz-conjecture꞉> 
+9
+clj꞉collatz-conjecture꞉> 
+13
+clj꞉collatz-conjecture꞉> 
+; Syntax error compiling at (collatz_conjecture.clj:16:1).
+; Unable to resolve symbol: collatz in this context
+clj꞉collatz-conjecture꞉> 
+; Syntax error compiling if at (collatz_conjecture.clj:8:3).
+; Too many arguments to if
+clj꞉collatz-conjecture꞉> 
+#'collatz-conjecture-test/collatz
+clj꞉collatz-conjecture-test꞉> 
+#'collatz-conjecture/collatz
+clj꞉collatz-conjecture꞉> 
+152
+clj꞉collatz-conjecture꞉> 
+java.lang.Error
+clj꞉collatz-conjecture꞉> 
+#'collatz-conjecture/collatz
+clj꞉collatz-conjecture꞉> 
+java.lang.Error
+clj꞉collatz-conjecture꞉> 
+java.lang.Class
+clj꞉collatz-conjecture꞉> 
+; Syntax error compiling at (collatz_conjecture.clj:21:7).
+; Expecting var, but Error is mapped to class java.lang.Error
+clj꞉collatz-conjecture꞉> 
+; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Expecting var, but Error is mapped to class java.lang.Error
+clj꞉collatz-conjecture꞉> 
+#'collatz-conjecture/collatz
+clj꞉collatz-conjecture꞉> 
+; Execution error (AssertionError) at collatz-conjecture/collatz (form-init8438834120212120499.clj:8).
+; Wrong input
+clj꞉collatz-conjecture꞉> 
+; Evaluating file: collatz_conjecture.clj
+
+clj꞉collatz-conjecture꞉> 
