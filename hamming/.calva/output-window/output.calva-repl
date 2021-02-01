@@ -1,0 +1,62 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.25.8"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+; Syntax error compiling at (hamming.clj:10:1).
+; Unable to resolve symbol: distance in this context
+clj꞉hamming꞉> 
+#'hamming-test/distance
+clj꞉hamming-test꞉> 
+([\A \G] [\C \G] [\T \A])
+clj꞉hamming꞉> 
+; Syntax error compiling at (hamming.clj:7:21).
+; Unable to resolve symbol: strand1 in this context
+clj꞉hamming꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+#function[clojure.core/accessor]
+clj꞉hamming꞉> 
+#function[clojure.core/accessor]
+clj꞉hamming꞉> 
+#function[clojure.core/accessor]
+clj꞉hamming꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+[\A \G]
+clj꞉hamming꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+[\T \A]
+clj꞉hamming꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+0
+clj꞉hamming꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+3
+clj꞉hamming꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+#'hamming/distance
+clj꞉hamming꞉> 
+nil
+clj꞉hamming꞉> 
