@@ -18,49 +18,40 @@
 clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉user꞉> 
-; Syntax error compiling at (collatz_conjecture.clj:7:1).
-; Unable to resolve symbol: defn in this context
-clj꞉collatz-conjecture꞉> 
 ; Evaluating file: collatz_conjecture.clj
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-9
-clj꞉collatz-conjecture꞉> 
-13
-clj꞉collatz-conjecture꞉> 
-; Syntax error compiling at (collatz_conjecture.clj:16:1).
-; Unable to resolve symbol: collatz in this context
-clj꞉collatz-conjecture꞉> 
-; Syntax error compiling if at (collatz_conjecture.clj:8:3).
+; Syntax error compiling if at (collatz_conjecture.clj:14:3).
 ; Too many arguments to if
+; Evaluation of file collatz_conjecture.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉user꞉> 
 clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture-test/collatz
-clj꞉collatz-conjecture-test꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/isPos (Numbers.java:121).
+; class clojure.lang.LongRange cannot be cast to class java.lang.Number (clojure.lang.LongRange is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉collatz-conjecture꞉> 
+; Execution error (ArityException) at collatz-conjecture/eval5634 (form-init6252572450224737650.clj:20).
+; Wrong number of args (1) passed to: clojure.core/iterate
+clj꞉collatz-conjecture꞉> 
+; Error printing return value (IllegalStateException) at clojure.lang.Var$Unbound/throwArity (Var.java:45).
+; Attempting to call unbound fn: #'collatz-conjecture/collatz-helper
+clj꞉collatz-conjecture꞉> 
+#'collatz-conjecture/collatz-helper
+clj꞉collatz-conjecture꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.core/even? (core.clj:1391).
+; Argument must be an integer: (0 1 2 3 4 5 6 7 8 9)
+clj꞉collatz-conjecture꞉> 
+(5 16 8 4 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ...)
+clj꞉collatz-conjecture꞉> 
 #'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-152
-clj꞉collatz-conjecture꞉> 
-java.lang.Error
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-java.lang.Error
-clj꞉collatz-conjecture꞉> 
-java.lang.Class
-clj꞉collatz-conjecture꞉> 
-; Syntax error compiling at (collatz_conjecture.clj:21:7).
-; Expecting var, but Error is mapped to class java.lang.Error
-clj꞉collatz-conjecture꞉> 
-; Execution error at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
-; Expecting var, but Error is mapped to class java.lang.Error
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-; Execution error (AssertionError) at collatz-conjecture/collatz (form-init8438834120212120499.clj:8).
-; Wrong input
 clj꞉collatz-conjecture꞉> 
 ; Evaluating file: collatz_conjecture.clj
-
+#'collatz-conjecture/collatz
+clj꞉collatz-conjecture꞉>  (collatz 14)
+(14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2)
+clj꞉collatz-conjecture꞉> 
+#'collatz-conjecture/collatz
+clj꞉collatz-conjecture꞉> 
+(collatz 14)
+17
+clj꞉collatz-conjecture꞉> 
+#'collatz-conjecture/collatz
 clj꞉collatz-conjecture꞉> 
