@@ -1,0 +1,355 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.25.8"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (bob.clj:7:9).
+; No such namespace: s
+clj꞉bob꞉> 
+nil
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+; Execution error (ClassCastException) at bob/response-for (form-init15345384258308758908.clj:7).
+; class java.lang.Character cannot be cast to class java.lang.CharSequence (java.lang.Character and java.lang.CharSequence are in module java.base of loader 'bootstrap')
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+nil
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+"Sure."
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:8:9).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+; Syntax error compiling if at (bob.clj:7:3).
+; Too many arguments to if
+clj꞉bob꞉> 
+; Syntax error macroexpanding case at (bob.clj:7:3).
+; Duplicate case test constant: s/includes?
+clj꞉bob꞉> 
+; Syntax error macroexpanding case at (bob.clj:7:3).
+; Duplicate case test constant: s/includes?
+clj꞉bob꞉> 
+; Syntax error macroexpanding case at (bob.clj:7:3).
+; Duplicate case test constant: s/includes?
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+; Execution error (ArityException) at bob/response-for (form-init15345384258308758908.clj:9).
+; Wrong number of args (1) passed to: clojure.string/includes?
+clj꞉bob꞉> 
+; Execution error (ArityException) at bob/response-for (form-init15345384258308758908.clj:9).
+; Wrong number of args (1) passed to: clojure.string/includes?
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+"Fine. Be that way!"
+clj꞉bob꞉> 
+"Whatever."
+clj꞉bob꞉> 
+"Sure."
+clj꞉bob꞉> 
+"Whoa, chill out!"
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+#'bob/response-for
+clj꞉bob꞉>  (response-for "Can you help me?")
+"Sure."
+clj꞉bob꞉> 
+#'bob-test/response-for
+clj꞉bob-test꞉> 
+"Sure."
+clj꞉bob꞉> 
+\?
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+"Whatever."
+clj꞉bob꞉> 
+\?
+clj꞉bob꞉> 
+; Syntax error compiling if at (bob.clj:12:9).
+; Too many arguments to if
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:7:12).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+; Syntax error compiling if at (bob.clj:12:9).
+; Too many arguments to if
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+"Sure."
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+"Sure."
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:11:9).
+; Unable to resolve symbol: all-caps? in this context
+clj꞉bob꞉> 
+#'bob/all-caps?
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:10:12).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:10:12).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+true
+clj꞉bob꞉> 
+#'bob/all-caps?
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+"Sure."
+clj꞉bob꞉> 
+false
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+"Sure."
+clj꞉bob꞉> 
+false
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:5:13).
+; Unable to resolve symbol: join in this context
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:5:13).
+; Unable to resolve symbol: join in this context
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:5:13).
+; Unable to resolve symbol: join in this context
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+false
+clj꞉bob꞉> 
+false
+clj꞉bob꞉> 
+#'bob/all-caps?
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+false
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+false
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+WHAT THE HELL WERE YOU THINKINGhello
+WHAT THE HELL WERE YOU THINKINGhello
+WHAT THE HELL WERE YOU THINKINGhello
+WHAT THE HELL WERE YOU THINKINGhello
+false
+clj꞉bob꞉> 
+; Syntax error compiling if at (bob.clj:7:5).
+; Too many arguments to if
+clj꞉bob꞉> 
+#'bob/all-caps?
+clj꞉bob꞉> 
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+WHAT THE HELL WERE YOU THINKING
+"Sure."
+clj꞉bob꞉> 
+WHAT THE HELL WERE YOU THINKING
+false
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+false
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:6:14).
+; Unable to resolve symbol: fs in this context
+clj꞉bob꞉> 
+#'bob/all-caps?
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+false
+false
+false
+false
+false
+clj꞉bob꞉> 
+; Evaluating file: bob.clj
+true
+true
+true
+true
+false
+clj꞉bob꞉> 
+true
+true
+clj꞉bob꞉> 
+true
+true
+clj꞉bob꞉> 
+true
+true
+true
+"Sure."
+clj꞉bob꞉> 
+true
+false
+clj꞉bob꞉> 
+true
+false
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:13:1).
+; Unable to resolve symbol: all-caps in this context
+clj꞉bob꞉> 
+true
+true
+clj꞉bob꞉> 
+#'bob/all-caps?
+clj꞉bob꞉> 
+false
+false
+clj꞉bob꞉> 
+false
+false
+clj꞉bob꞉> 
+(\W \h \a \t \space \w \e \r \space)
+clj꞉bob꞉> 
+"What wer "
+clj꞉bob꞉> 
+"W h a t   w e r  "
+clj꞉bob꞉> 
+; Syntax error reading source at (REPL:12:12).
+; Unsupported escape character: \s
+clj꞉bob꞉> 
+; Syntax error reading source at (REPL:12:18).
+; Unsupported character: \spacebar
+clj꞉bob꞉> 
+"Wshsasts swsesrs "
+clj꞉bob꞉> 
+"What wer  What wer "
+clj꞉bob꞉> 
+""
+clj꞉bob꞉> 
+" "
+clj꞉bob꞉> 
+" "
+clj꞉bob꞉> 
+#function[bob/all-caps?]
+clj꞉bob꞉> 
+#function[clojure.string/replace]
+clj꞉bob꞉> 
+""
+clj꞉bob꞉> 
+"What wer "
+clj꞉bob꞉> 
+"Whatwer"
+clj꞉bob꞉> 
+; Syntax error reading source at (REPL:10:17).
+; Unmatched delimiter: )
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:5:34).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+#'bob/all-caps?
+clj꞉bob꞉> 
+true
+true
+clj꞉bob꞉> 
+true
+true
+clj꞉bob꞉> 
+true
+true
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+true
+true
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:14:12).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+true
+clj꞉bob꞉> 
+false
+false
+"Whoa, chill out!"
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+false
+false
+"Whatever."
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:31:24).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:31:24).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:31:40).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+true
+clj꞉bob꞉> 
+false
+clj꞉bob꞉> 
+false
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+; Syntax error compiling at (bob.clj:14:12).
+; Unable to resolve symbol: s in this context
+clj꞉bob꞉> 
+; Syntax error (IllegalArgumentException) compiling . at (bob.clj:22:21).
+; No matching method isUpperCase found taking 2 args for class java.lang.Character
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
+#'bob/response-for
+clj꞉bob꞉> 
