@@ -1,0 +1,412 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.25.8"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (armstrong_numbers.clj:4:1).
+; Unable to resolve symbol: defn in this context
+clj꞉armstrong-numbers꞉> 
+; Syntax error compiling at (armstrong_numbers.clj:4:1).
+; Unable to resolve symbol: defn in this context
+clj꞉armstrong-numbers꞉> 
+; Evaluating file: armstrong_numbers.clj
+; Syntax error (IllegalArgumentException) compiling new at (armstrong_numbers.clj:18:1).
+; Unable to resolve classname: clojure
+1.6677181699666568E16
+clj꞉armstrong-numbers꞉> 
+; Evaluating file: armstrong_numbers.clj
+"Elapsed time: 4.3529 msecs"
+"Elapsed time: 0.2002 msecs"
+1.0
+clj꞉armstrong-numbers꞉> 
+; Evaluation of file armstrong_numbers.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉armstrong-numbers꞉> 
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.3707 msecs"
+true
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.1598 msecs"
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+16677181699666569
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.4949 msecs"
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+16677181699666569
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.5194 msecs"
+false
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.2142 msecs"
+false
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.3485 msecs"
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+16677181699666569
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.4082 msecs"
+true
+clj꞉armstrong-numbers꞉> 
+"Elapsed time: 0.38 msecs"
+true
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+2
+clj꞉armstrong-numbers꞉> 
+4
+clj꞉armstrong-numbers꞉> 
+6
+clj꞉armstrong-numbers꞉> 
+7
+clj꞉armstrong-numbers꞉> 
+134
+clj꞉armstrong-numbers꞉> 
+; Syntax error compiling at (armstrong_numbers.clj:19:1).
+; Unable to resolve symbol: length in this context
+clj꞉armstrong-numbers꞉> 
+; Execution error (UnsupportedOperationException) at armstrong-numbers/eval7457 (form-init13775701342507152735.clj:19).
+; count not supported on this type: Long
+clj꞉armstrong-numbers꞉> 
+(10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ 10
+ ...)
+clj꞉armstrong-numbers꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3605).
+; Cannot cast clojure.lang.LazySeq to java.lang.Number
+clj꞉armstrong-numbers꞉> 
+#function[clojure.core/*]
+clj꞉armstrong-numbers꞉> 
+3125
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/hagenek-exp
+clj꞉armstrong-numbers꞉> 
+; Execution error (ClassCastException) at armstrong-numbers/eval7466 (form-init13775701342507152735.clj:19).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉armstrong-numbers꞉> 
+2.0
+clj꞉armstrong-numbers꞉> 
+3.0
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/length-of-n
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ...)
+clj꞉armstrong-numbers꞉> 
+(11353 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 ...)
+clj꞉armstrong-numbers꞉> 
+(11353 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 ...)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(11353 1135 113 11 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ...)
+clj꞉armstrong-numbers꞉> 
+(11353 1135 113 11 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ...)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(11353 1135 113 11 1)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+; Error printing return value (ClassCastException) at armstrong-numbers/armstrong2?$fn (form-init13775701342507152735.clj:25).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+; Error printing return value (ClassCastException) at armstrong-numbers/armstrong2?$fn (form-init13775701342507152735.clj:25).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉armstrong-numbers꞉> 
+3125
+clj꞉armstrong-numbers꞉> 
+4294967296
+clj꞉armstrong-numbers꞉> 
+65536
+clj꞉armstrong-numbers꞉> 
+1048576
+clj꞉armstrong-numbers꞉> 
+256
+clj꞉armstrong-numbers꞉> 
+512
+clj꞉armstrong-numbers꞉> 
+1024
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(729 3125 81 1 1)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+3937
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(153 15 1)
+false
+clj꞉armstrong-numbers꞉> 
+; Syntax error compiling at (armstrong_numbers.clj:24:9).
+; Unable to resolve symbol: prinln in this context
+clj꞉armstrong-numbers꞉> 
+; Syntax error compiling if at (armstrong_numbers.clj:24:5).
+; Too few arguments to if
+clj꞉armstrong-numbers꞉> 
+; Syntax error compiling at (armstrong_numbers.clj:24:5).
+; Unable to resolve symbol: prinln in this context
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+207
+nil
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(81 125 1)
+nil
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(153 15 1)
+(81 125 1)
+nil
+clj꞉armstrong-numbers꞉> 
+3
+clj꞉armstrong-numbers꞉> 
+3
+clj꞉armstrong-numbers꞉> 
+27
+clj꞉armstrong-numbers꞉> 
+3
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(153 15 1)
+(81 625 1)
+nil
+clj꞉armstrong-numbers꞉> 
+3.184691430817599
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/length-of-n
+clj꞉armstrong-numbers꞉> 
+3.184691430817599
+clj꞉armstrong-numbers꞉> 
+3.184691430817599
+clj꞉armstrong-numbers꞉> 
+4.188365926063148
+clj꞉armstrong-numbers꞉> 
+4.277150613963797
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/length-of-n
+clj꞉armstrong-numbers꞉> 
+4.0
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+(153 15 1)
+(27 125 1)
+nil
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+; Execution error (ArityException) at armstrong-numbers/armstrong2? (form-init13775701342507152735.clj:25).
+; Wrong number of args (1) passed to: clojure.core/reduce
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+; Execution error (ArityException) at armstrong-numbers/armstrong2? (form-init13775701342507152735.clj:25).
+; Wrong number of args (1) passed to: clojure.core/reduce
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+153
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+nil
+clj꞉armstrong-numbers꞉> 
+; Evaluating file: armstrong_numbers.clj
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+; Evaluating file: armstrong_numbers.clj
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; Syntax error macroexpanding clojure.core/let at (armstrong_numbers.clj:11:3).
+; [arm-sum (->> (map (fn* [p1__8388#] (hagenek-exp (mod p1__8388# 10) (length-of-n n))) num-seq) (reduce +))] - failed: simple-symbol? at: [:bindings :form :local-symbol] spec: :clojure.core.specs.alpha/local-name
+((->> (map (fn* [p1__8388#] (hagenek-exp (mod p1__8388# 10) (length-of-n n))) num-seq) (reduce +))) - failed: Extra input at: [:bindings :form :seq-destructure] spec: :clojure.core.specs.alpha/seq-binding-form
+[arm-sum (->> (map (fn* [p1__8388#] (hagenek-exp (mod p1__8388# 10) (length-of-n n))) num-seq) (reduce +))] - failed: map? at: [:bindings :form :map-destructure] spec: :clojure.core.specs.alpha/map-bindings
+[arm-sum (->> (map (fn* [p1__8388#] (hagenek-exp (mod p1__8388# 10) (length-of-n n))) num-seq) (reduce +))] - failed: map? at: [:bindings :form :map-destructure] spec: :clojure.core.specs.alpha/map-special-binding
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+(true true true true true true true true true true true true true true)
+clj꞉armstrong-numbers꞉> 
+(0 1 2 3 4 5 6 7 8 9 153 370 371 407)
+clj꞉armstrong-numbers꞉> 
+(0 1 2 3 4 5 6 7 8 9 153 370 371 407 1634 8208 9474)
+clj꞉armstrong-numbers꞉> 
+(0 1 2 3 4 5 6 7 8 9 153 370 371 407 1634 8208 9474 54748 92727 93084)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+(0
+ 5
+ 10
+ 15
+ 20
+ 25
+ 30
+ 35
+ 40
+ 45
+ 50
+ 55
+ 60
+ 65
+ 70
+ 75
+ 80
+ 85
+ 90
+ 95
+ 100
+ 105
+ 110
+ 115
+ 120
+ 125
+ 130
+ 135
+ 140
+ 145
+ 150
+ 155
+ 160
+ 165
+ 170
+ 175
+ 180
+ 185
+ 190
+ 195
+ 200
+ 205
+ 210
+ 215
+ 220
+ 225
+ 230
+ 235
+ 240
+ 245
+ ...)
+clj꞉armstrong-numbers꞉> 
+(0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95)
+clj꞉armstrong-numbers꞉> 
+(0 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
