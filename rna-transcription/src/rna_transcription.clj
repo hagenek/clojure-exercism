@@ -5,6 +5,12 @@
   (let [rna-dict {\C "G"
                   \G "C"
                   \A "U"
-                  \T "A"}]
-    (when (not= (count (re-seq #"[C|G|A|T]" dna)) (count dna)) (throw (AssertionError. "Wrong input.")))
-    (s/join "" (into '() (reduce #(str (get rna-dict %2) %1) "" dna)))))
+                  \T "A"}
+        mapped-dna (map rna-dict dna)]
+    (if (some #(when (= % nil) true) mapped-dna)
+      (throw (AssertionError. "Wrong input."))
+      (apply str mapped-dna))))
+
+
+
+

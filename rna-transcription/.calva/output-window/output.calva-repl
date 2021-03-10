@@ -18,184 +18,65 @@
 clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉user꞉> 
-; Syntax error compiling at (rna_transcription.clj:3:1).
-; Unable to resolve symbol: defn in this context
-clj꞉rna-transcription꞉> 
 ; Evaluating file: rna_transcription.clj
 #'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-{"G" "C", "C" "G", "U" "A", "A" "T"}
-clj꞉rna-transcription꞉> 
-{"G" "C", "C" "G", "U" "A", "A" "T"}
-clj꞉rna-transcription꞉> 
-; Syntax error compiling at (rna_transcription.clj:7:29).
-; Unable to resolve symbol: rna in this context
-clj꞉rna-transcription꞉> 
-{"G" "C", "C" "G", "U" "A", "A" "T"}
+"U"
 clj꞉rna-transcription꞉> 
 #'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
-nil
+"U"
 clj꞉rna-transcription꞉> 
-nil
+"U"
 clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
+"U"
 clj꞉rna-transcription꞉> 
-"C"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"T"
-clj꞉rna-transcription꞉> 
-"T"
+"U"
 clj꞉rna-transcription꞉> 
 #'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
+; Execution error (NullPointerException) at rna-transcription/to-rna (form-init11674300579901216531.clj:10).
+; null
+clj꞉rna-transcription꞉> 
+; Execution error (NullPointerException) at rna-transcription/to-rna (form-init11674300579901216531.clj:10).
+; null
 clj꞉rna-transcription꞉> 
 #'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
+; Execution error (ArityException) at rna-transcription/to-rna (form-init11674300579901216531.clj:10).
+; Wrong number of args (1) passed to: rna-transcription/to-rna/fn--7140
 clj꞉rna-transcription꞉> 
-; Execution error (IllegalArgumentException) at rna-transcription/to-rna$fn (form-init6542955654664864170.clj:8).
-; Don't know how to create ISeq from: java.lang.Character
+; Syntax error compiling at (rna_transcription.clj:10:16).
+; Unable to resolve symbol: rqlw3 in this context
 clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-#'rna-transcription/rna-reducer
-clj꞉rna-transcription꞉> 
-"C"
+; Syntax error compiling at (rna_transcription.clj:10:16).
+; Unable to resolve symbol: rqlw3 in this context
 clj꞉rna-transcription꞉> 
 #'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
-""
+; Execution error (ArityException) at rna-transcription/to-rna (form-init11674300579901216531.clj:10).
+; Wrong number of args (1) passed to: rna-transcription/to-rna/fn--7147
 clj꞉rna-transcription꞉> 
-""
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-\T
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"T"
+; Execution error (ArityException) at rna-transcription/to-rna (form-init11674300579901216531.clj:10).
+; Wrong number of args (1) passed to: rna-transcription/to-rna/fn--7147
 clj꞉rna-transcription꞉> 
 #'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
 #'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
-; Syntax error compiling if at (rna_transcription.clj:8:14).
-; Too many arguments to if
-clj꞉rna-transcription꞉> 
-; Syntax error reading source at (REPL:11:23).
-; Nested #()s are not allowed
-clj꞉rna-transcription꞉> 
-; Syntax error compiling at (rna_transcription.clj:9:23).
-; Expecting var, but Error is mapped to class java.lang.Error
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"AGCAUC"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-; Syntax error reading source at (REPL:14:10).
-; Map literal must contain an even number of forms
-clj꞉rna-transcription꞉> 
-nil
-clj꞉rna-transcription꞉> 
-; Syntax error compiling at (rna_transcription.clj:14:1).
-; Unable to resolve symbol: to-rna in this context
-clj꞉rna-transcription꞉> 
-; Syntax error compiling at (rna_transcription.clj:14:1).
-; Unable to resolve symbol: to-rna in this context
-clj꞉rna-transcription꞉> 
-#'rna-transcription-test/to-rna
-clj꞉rna-transcription-test꞉> 
-"UUAAGACCACGA"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"(\\A \\G \\C \\A \\C \\C \\A \\G \\A \\A \\U \\U)"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-(\A \G \C \A \C \C \A \G \A \A \U \U)
-clj꞉rna-transcription꞉> 
-nil
-clj꞉rna-transcription꞉> 
-; Evaluating file: rna_transcription.clj
-(\A \G \C \A \C \C \A \G \A \A \U \U)
-clj꞉rna-transcription꞉> 
-(\A \G \C \A \C \C \A \G \A \A \U \U)
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"AGCACCAGAAUU"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"UUAAGACCACGA"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"AGCACCAGAAUU"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"AGCACCAGAAUU"
-clj꞉rna-transcription꞉> 
-; Execution error (IllegalArgumentException) at rna-transcription/to-rna (form-init6542955654664864170.clj:12).
-; Don't know how to create ISeq from: java.lang.Character
-clj꞉rna-transcription꞉> 
-"CC"
-clj꞉rna-transcription꞉> 
-"CCG"
-clj꞉rna-transcription꞉> 
-"GCC"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-"CCC"
-clj꞉rna-transcription꞉> 
-"C"
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-; Evaluating file: rna_transcription.clj
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉>  (to-rna "ADOKAE")
-"UU"
-clj꞉rna-transcription꞉> 
-; Syntax error compiling at (rna_transcription.clj:9:21).
-; Unable to resolve symbol: rna-dict in this context
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-("A" "A" "C" "A" "T" "C" "G")
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-("A" "A" "C" "A" "T" "C" "G")
-clj꞉rna-transcription꞉> 
-; Execution error (ClassCastException) at rna-transcription/to-rna (form-init6542955654664864170.clj:9).
-; class java.lang.Class cannot be cast to class java.lang.Throwable (java.lang.Class and java.lang.Throwable are in module java.base of loader 'bootstrap')
-clj꞉rna-transcription꞉> 
-; Execution error (ClassCastException) at rna-transcription/to-rna (form-init6542955654664864170.clj:9).
-; class java.lang.Class cannot be cast to class java.lang.Throwable (java.lang.Class and java.lang.Throwable are in module java.base of loader 'bootstrap')
-clj꞉rna-transcription꞉> 
-#'rna-transcription/to-rna
-clj꞉rna-transcription꞉> 
-; Execution error (AssertionError) at rna-transcription/to-rna (form-init6542955654664864170.clj:9).
+; Execution error (AssertionError) at rna-transcription/to-rna (form-init11674300579901216531.clj:10).
 ; Wrong input.
+clj꞉rna-transcription꞉> 
+#'rna-transcription/to-rna
+clj꞉rna-transcription꞉> 
+; Execution error (AssertionError) at rna-transcription/to-rna (form-init11674300579901216531.clj:10).
+; Wrong input.
+clj꞉rna-transcription꞉> 
+"GCCCUAA"
+clj꞉rna-transcription꞉> 
+#'rna-transcription/to-rna
+clj꞉rna-transcription꞉> 
+#'rna-transcription/to-rna
+clj꞉rna-transcription꞉> 
+#'rna-transcription/to-rna
 clj꞉rna-transcription꞉> 
